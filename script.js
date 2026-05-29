@@ -1,5 +1,5 @@
-const API_BASE = 'https://api.skpmc.online:8880';
-const WS_BASE = 'wss://api.skpmc.online:8880';
+const API_BASE = 'https://skp-proxy.vercel.app';
+const WS_BASE = 'wss://skp-proxy.vercel.app';
 
 let currentToken = localStorage.getItem('jwt');
 let currentName = localStorage.getItem('playerName');
