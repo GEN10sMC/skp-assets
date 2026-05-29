@@ -1,5 +1,5 @@
-const API_BASE = window.location.origin;
-const WS_BASE = API_BASE.replace('http', 'ws');
+const API_BASE = 'https://api.skpmc.online:8080';
+const WS_BASE = 'wss://api.skpmc.online:8080';
 
 let currentToken = localStorage.getItem('jwt');
 let currentName = localStorage.getItem('playerName');
